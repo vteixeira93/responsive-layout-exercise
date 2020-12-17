@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+  .nav-links {
+      min-width: 300px;
+  }  
+  .bubble {
+      transform: translateX(-50%);
+      &:hover {
+          transform: translateX(-50%);
+          .cover-title {
+            color: $softWhite;
+          }
+      }
+  }
+}
+
+@media (min-width: 1368px) {
+    .bubble {
+        transform: translateY(30%);
+    }
+}

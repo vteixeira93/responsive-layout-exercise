@@ -1,0 +1,102 @@
+@import './navbar';
+@import './grid';
+@import './mobile';
+
+$primaryColor: #3084b4;
+$primaryColor-light: #4bbafa;
+$softWhite: #f1f1f1;
+$primaryColor-dark: #316888;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: $softWhite;
+}
+
+.cover {
+    width: 100%;
+    height: 550px;
+    background-image: url(/cover.png);
+    background-position: 10% 60%;
+    background-size: 550px;
+    background-repeat: no-repeat;
+    box-shadow: 0px 1px 3px rgba(34, 34, 34, 0.5);}
+
+.bubble {
+    width: 350px;
+    height: 150px;
+    z-index: 3;
+    opacity: 0.8;
+    background-color: transparent;
+    position: absolute;
+    backdrop-filter: blur(6px);
+    border: 3px solid transparent;
+    background-clip: padding-box;
+    top: 10%;
+    left: 50%;
+    box-shadow: 2px 2px 10px rgba(89, 98, 116, 0.5);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    transition: all 400ms;
+    &:hover {
+        height: 300px;
+        overflow: visible;
+        .bubble-hidden {
+            opacity: 0.8;
+            font-weight: 700;
+        }
+        h1 {
+            color: $primaryColor-dark;
+        }
+    }
+    h1 {
+        color: $softWhite;
+        font-size: 3rem;
+        text-shadow: 2px 2px 5px rgb(73, 86, 109);
+        position: Absolute;
+        top: 25%;
+        transition: all 1000ms;
+    }
+    .bubble-hidden {
+        width: 90%;
+        position: absolute;
+        top: 50%;
+        text-align: right;
+        float: right;
+        opacity: 0;
+        transition: all 500ms;
+    }
+}
+
+
+.footer {
+    width: 100%;
+    height: 40px;
+    background-image: linear-gradient(180deg, $primaryColor, $primaryColor-dark);
+    z-index: -1; 
+    box-shadow: 0px 1px 5px rgba(34, 34, 34, 0.5);
+    color: $softWhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container {
+    width: 500px;
+    height: 30px;
+    text-align: center;
+    background-image: linear-gradient(90deg, rgba($primaryColor-light, 0.3), rgba($softWhite, 0.3));
+    padding: 5px 25px;
+}

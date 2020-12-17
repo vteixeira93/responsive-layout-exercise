@@ -1,0 +1,712 @@
+.nav-container {
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3084b4), to(#316888));
+  background-image: linear-gradient(180deg, #3084b4, #316888);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 20px;
+  -webkit-box-shadow: 0px 1px 3px rgba(34, 34, 34, 0.5);
+          box-shadow: 0px 1px 3px rgba(34, 34, 34, 0.5);
+}
+
+.nav-container .nav-links {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-container .nav-link {
+  color: #f1f1f1;
+  font-size: 20;
+  padding: 0px 10px;
+  font-weight: 600;
+}
+
+.nav-container .nav-link:hover {
+  border-bottom: 2px solid #f1f1f1;
+}
+
+.locations-container {
+  -webkit-box-shadow: 0px 1px 10px #222222;
+          box-shadow: 0px 1px 10px #222222;
+  width: 100%;
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#316888), color-stop(#3084b4), to(#4bbafa));
+  background-image: linear-gradient(to bottom, #316888, #3084b4, #4bbafa);
+}
+
+.locations-container .locations-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.locations-container .locations-card-1 {
+  background-image: url("/locations/london-uk.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 300px;
+  height: 250px;
+  margin: 30px;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  background-clip: padding-box;
+  cursor: pointer;
+}
+
+.locations-container .locations-card-1:hover {
+  -webkit-box-shadow: 5px 5px 10px rgba(89, 98, 116, 0.5);
+          box-shadow: 5px 5px 10px rgba(89, 98, 116, 0.5);
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.locations-container .locations-card-1:hover .card-location {
+  opacity: 1;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.locations-container .locations-card-2 {
+  background-image: url("/locations/la-usa.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 300px;
+  height: 250px;
+  margin: 30px;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  background-clip: padding-box;
+  cursor: pointer;
+}
+
+.locations-container .locations-card-2:hover {
+  -webkit-box-shadow: 5px 5px 10px rgba(89, 98, 116, 0.5);
+          box-shadow: 5px 5px 10px rgba(89, 98, 116, 0.5);
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.locations-container .locations-card-2:hover .card-location {
+  opacity: 1;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.locations-container .locations-card-3 {
+  background-image: url("/locations/casablanca-morocco.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 300px;
+  height: 250px;
+  margin: 30px;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  background-clip: padding-box;
+  cursor: pointer;
+}
+
+.locations-container .locations-card-3:hover {
+  -webkit-box-shadow: 5px 5px 10px rgba(89, 98, 116, 0.5);
+          box-shadow: 5px 5px 10px rgba(89, 98, 116, 0.5);
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.locations-container .locations-card-3:hover .card-location {
+  opacity: 1;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.locations-container .locations-card-4 {
+  background-image: url("/locations/chittagong-bangladesh.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 300px;
+  height: 250px;
+  margin: 30px;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  background-clip: padding-box;
+  cursor: pointer;
+}
+
+.locations-container .locations-card-4:hover {
+  -webkit-box-shadow: 5px 5px 10px rgba(89, 98, 116, 0.5);
+          box-shadow: 5px 5px 10px rgba(89, 98, 116, 0.5);
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.locations-container .locations-card-4:hover .card-location {
+  opacity: 1;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.locations-container .locations-card-5 {
+  background-image: url("/locations/douala-cameroon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 300px;
+  height: 250px;
+  margin: 30px;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  background-clip: padding-box;
+  cursor: pointer;
+}
+
+.locations-container .locations-card-5:hover {
+  -webkit-box-shadow: 5px 5px 10px rgba(89, 98, 116, 0.5);
+          box-shadow: 5px 5px 10px rgba(89, 98, 116, 0.5);
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.locations-container .locations-card-5:hover .card-location {
+  opacity: 1;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.locations-container .locations-card-6 {
+  background-image: url("/locations/fez-morocco.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 300px;
+  height: 250px;
+  margin: 30px;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  background-clip: padding-box;
+  cursor: pointer;
+}
+
+.locations-container .locations-card-6:hover {
+  -webkit-box-shadow: 5px 5px 10px rgba(89, 98, 116, 0.5);
+          box-shadow: 5px 5px 10px rgba(89, 98, 116, 0.5);
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.locations-container .locations-card-6:hover .card-location {
+  opacity: 1;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.locations-container .locations-card-7 {
+  background-image: url("/locations/frankfurt-germany.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 300px;
+  height: 250px;
+  margin: 30px;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  background-clip: padding-box;
+  cursor: pointer;
+}
+
+.locations-container .locations-card-7:hover {
+  -webkit-box-shadow: 5px 5px 10px rgba(89, 98, 116, 0.5);
+          box-shadow: 5px 5px 10px rgba(89, 98, 116, 0.5);
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.locations-container .locations-card-7:hover .card-location {
+  opacity: 1;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.locations-container .locations-card-8 {
+  background-image: url("/locations/newyork-usa.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 300px;
+  height: 250px;
+  margin: 30px;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  background-clip: padding-box;
+  cursor: pointer;
+}
+
+.locations-container .locations-card-8:hover {
+  -webkit-box-shadow: 5px 5px 10px rgba(89, 98, 116, 0.5);
+          box-shadow: 5px 5px 10px rgba(89, 98, 116, 0.5);
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.locations-container .locations-card-8:hover .card-location {
+  opacity: 1;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.locations-container .locations-card-9 {
+  background-image: url("/locations/palembang-indonesia.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 300px;
+  height: 250px;
+  margin: 30px;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  background-clip: padding-box;
+  cursor: pointer;
+}
+
+.locations-container .locations-card-9:hover {
+  -webkit-box-shadow: 5px 5px 10px rgba(89, 98, 116, 0.5);
+          box-shadow: 5px 5px 10px rgba(89, 98, 116, 0.5);
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.locations-container .locations-card-9:hover .card-location {
+  opacity: 1;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.locations-container .locations-card-10 {
+  background-image: url("/locations/paris-france.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 300px;
+  height: 250px;
+  margin: 30px;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  background-clip: padding-box;
+  cursor: pointer;
+}
+
+.locations-container .locations-card-10:hover {
+  -webkit-box-shadow: 5px 5px 10px rgba(89, 98, 116, 0.5);
+          box-shadow: 5px 5px 10px rgba(89, 98, 116, 0.5);
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.locations-container .locations-card-10:hover .card-location {
+  opacity: 1;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.locations-container .locations-card-11 {
+  background-image: url("/locations/saitama-japan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 300px;
+  height: 250px;
+  margin: 30px;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  background-clip: padding-box;
+  cursor: pointer;
+}
+
+.locations-container .locations-card-11:hover {
+  -webkit-box-shadow: 5px 5px 10px rgba(89, 98, 116, 0.5);
+          box-shadow: 5px 5px 10px rgba(89, 98, 116, 0.5);
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.locations-container .locations-card-11:hover .card-location {
+  opacity: 1;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.locations-container .locations-card-12 {
+  background-image: url("/locations/yerevan-armenia.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 300px;
+  height: 250px;
+  margin: 30px;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  background-clip: padding-box;
+  cursor: pointer;
+}
+
+.locations-container .locations-card-12:hover {
+  -webkit-box-shadow: 5px 5px 10px rgba(89, 98, 116, 0.5);
+          box-shadow: 5px 5px 10px rgba(89, 98, 116, 0.5);
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.locations-container .locations-card-12:hover .card-location {
+  opacity: 1;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.locations-img {
+  width: 100%;
+}
+
+.card-location {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  color: #f1f1f1;
+  font-size: 25px;
+  text-shadow: 1px 1px 3px #f1f1f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.locations-title-container {
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.locations-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 450px;
+  height: 70px;
+  background-color: #f1f1f1;
+  color: #316888;
+  text-shadow: 1px 1px 3px rgba(89, 98, 116, 0.5);
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    min-width: 300px;
+  }
+  .bubble {
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .bubble:hover {
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .bubble:hover .cover-title {
+    color: #f1f1f1;
+  }
+}
+
+@media (min-width: 1368px) {
+  .bubble {
+    -webkit-transform: translateY(30%);
+            transform: translateY(30%);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+.cover {
+  width: 100%;
+  height: 550px;
+  background-image: url(/cover.png);
+  background-position: 10% 60%;
+  background-size: 550px;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 0px 1px 3px rgba(34, 34, 34, 0.5);
+          box-shadow: 0px 1px 3px rgba(34, 34, 34, 0.5);
+}
+
+.bubble {
+  width: 350px;
+  height: 150px;
+  z-index: 3;
+  opacity: 0.8;
+  background-color: transparent;
+  position: absolute;
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+  border: 3px solid transparent;
+  background-clip: padding-box;
+  top: 10%;
+  left: 50%;
+  -webkit-box-shadow: 2px 2px 10px rgba(89, 98, 116, 0.5);
+          box-shadow: 2px 2px 10px rgba(89, 98, 116, 0.5);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+}
+
+.bubble:hover {
+  height: 300px;
+  overflow: visible;
+}
+
+.bubble:hover .bubble-hidden {
+  opacity: 0.8;
+  font-weight: 700;
+}
+
+.bubble:hover h1 {
+  color: #316888;
+}
+
+.bubble h1 {
+  color: #f1f1f1;
+  font-size: 3rem;
+  text-shadow: 2px 2px 5px #49566d;
+  position: Absolute;
+  top: 25%;
+  -webkit-transition: all 1000ms;
+  transition: all 1000ms;
+}
+
+.bubble .bubble-hidden {
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  text-align: right;
+  float: right;
+  opacity: 0;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+.footer {
+  width: 100%;
+  height: 40px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3084b4), to(#316888));
+  background-image: linear-gradient(180deg, #3084b4, #316888);
+  z-index: -1;
+  -webkit-box-shadow: 0px 1px 5px rgba(34, 34, 34, 0.5);
+          box-shadow: 0px 1px 5px rgba(34, 34, 34, 0.5);
+  color: #f1f1f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-container {
+  width: 500px;
+  height: 30px;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(75, 186, 250, 0.3)), to(rgba(241, 241, 241, 0.3)));
+  background-image: linear-gradient(90deg, rgba(75, 186, 250, 0.3), rgba(241, 241, 241, 0.3));
+  padding: 5px 25px;
+}
+/*# sourceMappingURL=main.css.map */
